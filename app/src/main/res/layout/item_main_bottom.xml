@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:id="@+id/ll_main_bottom"
+    android:background="@drawable/background"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/relative_remind"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ivRemind_normal"
+        android:layout_marginTop="3dp"
+        android:layout_weight="1.5"
+        android:src="@drawable/ic_local_florist_grey_500_24dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+        <TextView
+            android:id="@+id/tvRemind_normal"
+            android:textColor="@color/grey_500"
+            android:gravity="center|top"
+            android:layout_gravity="center"
+            android:textSize="10sp"
+            android:text="备忘录"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/ivRemind_selected"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1.5"
+                android:src="@drawable/ic_local_florist_green_500_24dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+            <TextView
+                android:id="@+id/tvRemind_selected"
+                android:textColor="@color/mainGreen"
+                android:gravity="center|top"
+                android:layout_gravity="center"
+                android:textSize="10sp"
+                android:text="备忘录"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/relative_drink"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/ivDrink_normal"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1.5"
+                android:src="@drawable/ic_local_drink_grey_500_24dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+            <TextView
+                android:id="@+id/tvDrink_normal"
+                android:textColor="@color/grey_500"
+                android:gravity="center|top"
+                android:layout_gravity="center"
+                android:textSize="10sp"
+                android:text="drink"
+                android:textStyle="italic"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/ivDrink_selected"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1.5"
+                android:src="@drawable/ic_local_drink_green_500_24dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+            <TextView
+                android:id="@+id/tvDrink_selected"
+                android:textColor="@color/mainGreen"
+                android:gravity="center|top"
+                android:layout_gravity="center"
+                android:textSize="10sp"
+                android:text="drink"
+                android:textStyle="italic"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/relative_map"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/ivMap_normal"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1.5"
+                android:src="@drawable/ic_pin_drop_grey_500_24dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+            <TextView
+                android:id="@+id/tvMap_normal"
+                android:textColor="@color/grey_500"
+                android:gravity="center|top"
+                android:layout_gravity="center"
+                android:textSize="10sp"
+                android:text="地图"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/ivMap_selected"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1.5"
+                android:src="@drawable/ic_pin_drop_green_500_24dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+            <TextView
+                android:id="@+id/tvMap_selected"
+                android:textColor="@color/mainGreen"
+                android:gravity="center|top"
+                android:layout_gravity="center"
+                android:textSize="10sp"
+                android:text="地图"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
